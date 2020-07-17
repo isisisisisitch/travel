@@ -3,16 +3,88 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="travel_demo:war" />
-      <artifact name="travel_demo:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3896c963-5886-4f05-b19e-b8489a78d8e4" name="Default Changelist" comment="" />
+    <list default="true" id="3896c963-5886-4f05-b19e-b8489a78d8e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/FavoriteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/RouteImgDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/SellerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/FavoriteDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/RouteImgDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/SellerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/FavoriteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/FavoriteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/bytetube/dao/FavoriteDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/bytetube/dao/FavoriteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/bytetube/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/RouteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/RouteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/RouteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/RouteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/domain/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/domain/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/RouteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/RouteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/RouteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/RouteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/bytetube/web/servlet/RouteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/web/servlet/RouteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/myfavorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myfavorite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/route_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/route_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/route_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/route_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/travel_demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/RouteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/RouteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/impl/RouteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/impl/RouteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/domain/Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/domain/Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/service/RouteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/service/RouteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/service/impl/RouteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/service/impl/RouteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/util/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/MailUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/util/MailUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/util/MailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/web/servlet/RouteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/bytetube/web/servlet/RouteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/META-INF/travel_demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/dao/RouteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/dao/RouteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/dao/impl/RouteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/dao/impl/RouteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/domain/Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/domain/Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/service/RouteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/service/RouteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/service/impl/RouteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/service/impl/RouteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/util/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/util/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/util/MailUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/util/MailUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/util/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/util/MailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/web/servlet/RouteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/WEB-INF/classes/ca/bytetube/web/servlet/RouteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/myfavorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/myfavorite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/route_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/route_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/route_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/travel_demo-1.0-SNAPSHOT/route_list.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,25 +104,31 @@
     </option>
   </component>
   <component name="ProjectId" id="1eEjQohrkV1mS63I90zlzn9hli8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ca/bytetube/dao" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/ca/bytetube/dao" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ca.bytetube.domain" />
-      <recent name="ca.bytetube.web.servlet" />
+      <recent name="ca.bytetube.test" />
+      <recent name="ca.bytetube.dao.impl" />
+      <recent name="ca.bytetube.dao" />
       <recent name="ca.bytetube.service.impl" />
       <recent name="ca.bytetube.service" />
-      <recent name="ca.bytetube.dao.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/ca/bytetube/dao" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl" />
       <recent name="$PROJECT_DIR$/src/main/java/ca/bytetube/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
     </key>
@@ -68,12 +146,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.55">
-    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.util.MailUtils" />
+    <configuration name="UserDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube.dao.impl.UserDaoImpl" />
       <module name="travel_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.util.*" />
+          <option name="PATTERN" value="ca.bytetube.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,15 +159,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UuidUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.util.UuidUtil" />
+    <configuration name="FavoriteDaoTest.testAdd (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="travel_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.util.*" />
+          <option name="PATTERN" value="ca.bytetube.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube.dao.FavoriteDaoTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FavoriteServiceTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travel_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube.dao.FavoriteServiceTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FavoriteServiceTest.testIsF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travel_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube.dao.FavoriteServiceTest" />
+      <option name="METHOD_NAME" value="testIsF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.testFindAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travel_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,14 +304,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MailUtils" />
-      <item itemvalue="Application.UuidUtil" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.55" />
+      <item itemvalue="JUnit.UserDaoTest.testFindAll (1)" />
+      <item itemvalue="Application.UserDaoImpl" />
+      <item itemvalue="JUnit.FavoriteDaoTest.testAdd (1)" />
+      <item itemvalue="JUnit.FavoriteServiceTest.testAdd" />
+      <item itemvalue="JUnit.FavoriteServiceTest.testIsF" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UuidUtil" />
-        <item itemvalue="Application.MailUtils" />
+        <item itemvalue="JUnit.FavoriteServiceTest.testIsF" />
+        <item itemvalue="JUnit.FavoriteServiceTest.testAdd" />
+        <item itemvalue="JUnit.FavoriteDaoTest.testAdd (1)" />
+        <item itemvalue="Application.UserDaoImpl" />
+        <item itemvalue="JUnit.UserDaoTest.testFindAll (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,10 +338,38 @@
       <workItem from="1594333280523" duration="921000" />
       <workItem from="1594337290022" duration="6093000" />
       <workItem from="1594496847382" duration="18555000" />
+      <workItem from="1594520183531" duration="335000" />
+      <workItem from="1594921644346" duration="10057000" />
+      <workItem from="1594941066755" duration="6420000" />
+      <workItem from="1594948670980" duration="3075000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/bytetube/test/FavoriteServiceTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
